@@ -1,5 +1,5 @@
 execute @a[hasitem={location=slot.weapon.mainhand,item=clock},tag=!gui] ~ ~ ~ summon npc
-execute @e[type=npc] ~ ~ ~ tag @a[r=0.1] add gui
+execute @e[type=npc] ~ ~ ~ tag @a[r=0.2] add gui
 execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ dialogue change @e[tag=!changed] main
 tag @e[tag=!changed] add changed
 execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ tp @e[type=npc,c=1] @s
