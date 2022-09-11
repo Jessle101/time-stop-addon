@@ -8,4 +8,4 @@ gamerule dofiretick true
 gamerule tntexplodes true
 time add 3
 mobevent events_enabled true
-execute @a[scores={actionbar=0}] ~ ~ ~ title @a actionbar §bThe Time has Sped Up!
+execute @a[scores={actionbar=0}] ~ ~ ~ title @a actionbar §cThe Time has Sped Up!
