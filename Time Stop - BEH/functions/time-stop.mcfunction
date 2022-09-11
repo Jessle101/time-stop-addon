@@ -1,5 +1,5 @@
 execute @e[type=!player] ~ ~ ~ execute @s ~ ~ ~ tp @s @s
-execute @e[scores={players=1},type=player] ~ ~ ~ execute @s ~ ~ ~ tp @s @s
+execute @a[scores={players=1}] ~ ~ ~ execute @s ~ ~ ~ tp @s @s
 gamerule randomtickspeed 0
 gamerule dodaylightcycle false
 gamerule doweathercycle false

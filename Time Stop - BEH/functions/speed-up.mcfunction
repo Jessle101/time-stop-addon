@@ -1,5 +1,5 @@
 execute @e[type=!player] ~ ~ ~ effect @s speed 99999 10 true
-execute @e[scores={players=1},type=player] ~ ~ ~ effect @s speed 99999 10 true
+execute @a[scores={players=1}] ~ ~ ~ effect @s speed 99999 10 true
 gamerule randomtickspeed 10
 gamerule dodaylightcycle true
 gamerule doweathercycle true
