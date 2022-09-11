@@ -5,7 +5,7 @@ tag @e[tag=!changed] add changed
 execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ tp @e[type=npc,c=1] @s
 tag @a[tag=gui,hasitem={item=clock,quantity=0,location=slot.weapon.mainhand}] remove gui
 execute @e[type=npc] ~ ~ ~ execute @a[r=0.5,hasitem={item=clock,quantity=0,location=slot.weapon.mainhand},tag=!gui] ~ ~ ~ kill @e[type=npc,r=1,c=1]
-playanimation @e[tag=gui,type=npc] animation.creeper.swelling true 99999 false
+playanimation @e[tag=changed,type=npc] animation.creeper.swelling true 99999 false
 
 scoreboard objectives add time dummy "Time"
 scoreboard objectives add actionbar dummy "Actionbar"
@@ -48,6 +48,5 @@ execute @a[hasitem={item=clock, location=slot.hotbar, slot=0..8}] ~~~ tag @s add
 execute @a[hasitem={item=compass, location=slot.inventory, slot=0..26}] ~~~ tag @s add hascompass
 execute @a[hasitem={item=compass, location=slot.hotbar, slot=0..8}] ~~~ tag @s add hascompass
 
-execute @a[tag=!hasclock] ~~~ execute @s[tag=!hascompass] ~~~ function ts-reset
-execute @a[tag=!hascompass] ~~~ execute @s[tag=!hasclock] ~~~ function ts-reset
 execute @a[tag=hasclock] ~~~ execute @s[tag=hascompass] ~~~ function ts-reset
+clear @a[tag=!admin] compass
