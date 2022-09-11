@@ -4,7 +4,7 @@
       "random.toast": {
          "sounds": [
              {
-                 "name": "sounds/ZAWARUDO",
+                 "name": "sounds/random/ZAWARUDO",
                  "volume": 1.0
              }
          ],

@@ -1,5 +1,5 @@
-execute @e[type=!player] ~ ~ ~ effect @s slowness 99999 10 true
-execute @a[scores={players=1}] ~ ~ ~ effect @s slowness 99999 10 true
+execute @e[type=!player] ~ ~ ~ effect @s slowness 99999 5 true
+execute @a[scores={players=1},tag=!admin] ~ ~ ~ effect @s slowness 99999 5 true
 gamerule randomtickspeed 0
 gamerule dodaylightcycle true
 gamerule doweathercycle true
