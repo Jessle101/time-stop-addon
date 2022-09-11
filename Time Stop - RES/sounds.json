@@ -3102,7 +3102,7 @@
                "hurt" : "mob.villager.hit"
             },
             "pitch" : [ 0.80, 1.20 ],
-            "volume" : 1.0
+            "volume" : 0.0
          },
          "mooshroom" : {
             "events" : {
@@ -3171,7 +3171,7 @@
                "spawn" : "mob.villager.idle"
             },
             "pitch" : [ 0.80, 1.20 ],
-            "volume" : 1.0
+            "volume" : 0.0
          },
          "ocelot" : {
             "events" : {
