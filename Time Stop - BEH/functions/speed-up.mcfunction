@@ -7,5 +7,5 @@ gamerule naturalregeneration true
 gamerule dofiretick true
 gamerule tntexplodes true
 time add 3
-
-execute @a[scores={actionbar=0}] ~ ~ ~ title @a actionbar §bThe Time has Sped Up!...
+mobevent events_enabled true
+execute @a[scores={actionbar=0}] ~ ~ ~ title @a actionbar §bThe Time has Sped Up!

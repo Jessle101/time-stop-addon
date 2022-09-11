@@ -6,5 +6,5 @@ gamerule doweathercycle true
 gamerule naturalregeneration true
 gamerule dofiretick true
 gamerule tntexplodes true
-
-execute @a[scores={actionbar=0}] ~ ~ ~ title @a actionbar §eThe Time has Slowed Down!...
+mobevent events_enabled true
+execute @a[scores={actionbar=0}] ~ ~ ~ title @a actionbar §eThe Time has Slowed Down...
