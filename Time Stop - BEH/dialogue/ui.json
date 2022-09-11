@@ -75,6 +75,18 @@
 							"dialogue open @s @initiator main"
 						],
 						"name": "§l§1<— Clock"
+					},
+					{
+						"commands": [
+							"function giveitems"
+						],
+						"name": "Items"
+					},
+					{
+						"commands": [
+							"function givebook"
+						],
+						"name": "Info Book"
 					}
 				]
 			}
