@@ -15,8 +15,9 @@ gamerule sendcommandfeedback false
 execute @a[scores={time=0}] ~ ~ ~ function resume
 execute @a[scores={time=1}] ~ ~ ~ function time-stop
 execute @a[scores={time=2}] ~ ~ ~ function pause
-execute @a[scores={time=3}] ~ ~ ~ function time-rewind
-execute @a[scores={time=4}] ~ ~ ~ function fast-forward
+execute @a[scores={time=3}] ~ ~ ~ function speed-up
+execute @a[scores={time=4}] ~ ~ ~ function slow-time
+execute @a[scores={time=5}] ~ ~ ~ function rewind-time
 
 
 scoreboard objectives add jessieTimer2 dummy "TSA Timer"
