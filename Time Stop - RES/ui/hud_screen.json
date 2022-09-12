@@ -1,0 +1,46 @@
+{
+	"namespace": "testhud",
+	"hud_text_background": {
+		"type": "image",
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"texture": "textures/ui/Black.png",
+		"keep_ratio": false,
+		"alpha": 0.5,
+		"size": [
+			85,
+			45
+		],
+		"offset": [
+			-2,
+			-2
+		]
+	},
+	"hud_text": {
+		"type": "label",
+		"text": "Time Stop Addon\nMade by:\n§bSineVector241\n§cJessie101",
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"shadow": true,
+		"offset": [
+			-5,
+			-5
+		]
+	},
+	"root_panel": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": [
+					{
+						"hud_text_background@hud.hud_text_background": {}
+					},
+					{
+						"hud_text@hud.hud_text": {}
+					}
+				]
+			}
+		]
+	}
+}
