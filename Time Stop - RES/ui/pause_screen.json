@@ -1,0 +1,29 @@
+{
+	"namespace": "pausehud",
+	"credit_text": {
+		"type": "label",
+		"text": "Time Stop Addon\nCreated by:\n§bSineVector241\n§cJessie101\n§fFrom §5PXLPerfect",
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"shadow": true,
+		"font_size":"10",
+		"text_alignment": "center",
+		"offset": [
+			-160,
+			-5
+		]
+	},
+    "pause_screen_content": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": [
+                    {
+						"credit_text@pause.credit_text": {}
+					}
+				]
+			}
+		]
+	}
+}
