@@ -8,8 +8,8 @@
 		"keep_ratio": false,
 		"alpha": 0.5,
 		"size": [
-			85,
-			45
+			90,
+			55
 		],
 		"offset": [
 			-2,
@@ -18,7 +18,7 @@
 	},
 	"hud_text": {
 		"type": "label",
-		"text": "Time Stop Addon\nMade by:\n§bSineVector241\n§cJessie101",
+		"text": "Time Stop Addon\nCreated by:\n§bSineVector241\n§cJessie101\n§fFrom §5PXLPerfect",
 		"anchor_from": "bottom_right",
 		"anchor_to": "bottom_right",
 		"shadow": true,
