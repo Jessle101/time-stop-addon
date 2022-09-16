@@ -5,7 +5,7 @@
 			{
 				"scene_tag": "main",
 				"npc_name": "§r",
-				"text": "§◉§8§lControl Time GUI!\n\n§1Stop Time - stops all entities from moving, crops from growing, time of day remains the same, mob events disabled.\n\n§2Resume Time - the time becomes normal again!\n\n§0Pause Game - same as \"§1Stop Time§0\", but all players are frozen as well!\n\n§6Slow Time - reduces normal speed by 10x!\n\n§cSpeed Up - increases normal speed by 10x!\n\n§8Settings - change default settings of this addon. Use \"§3/tag @s admin§8\" in order to be able to access settings!",
+				"text": "§◉§8§lControl Time GUI!\n\n§1Stop Time - stops all entities from moving, crops from growing, time of day remains the same, mob events disabled.\n\n§2Normal Time - the time becomes normal again!\n\n§0Pause Game - same as \"§1Stop Time§0\", but all players are frozen as well!\n\n§6Slow Time - reduces normal speed by 10x!\n\n§cSpeed Up - increases normal speed by 10x!\n\n§8Settings - change default settings of this addon. Use \"§3/tag @s admin§8\" in order to be able to access settings!",
 				"buttons": [
 					{
 						"commands": [
@@ -17,7 +17,7 @@
 						"commands": [
 							"function r"
 						],
-						"name": "§2§oResume Time!"
+						"name": "§2§oNormal Time!"
 					},
 					{
 						"commands": [

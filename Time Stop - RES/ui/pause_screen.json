@@ -2,7 +2,7 @@
 	"namespace": "pausehud",
 	"credit_text": {
 		"type": "label",
-		"text": "Time Stop Addon\nCreated by:\n§bSineVector241\n§cJessie101\n§fFrom §5PXLPerfect",
+		"text": "Time Stop Addon\nCreated by:\n§cJessie101 §f&\n§bSineVector241\n§ffrom §5PXLPerfect\n\n§5pixelsperfect.net",
 		"anchor_from": "bottom_right",
 		"anchor_to": "bottom_right",
 		"shadow": true,

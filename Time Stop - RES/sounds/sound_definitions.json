@@ -5,11 +5,20 @@
          "sounds": [
              {
                  "name": "sounds/random/ZAWARUDO",
-                 "volume": 1.0
+                 "volume": 0.9
              }
          ],
          "category": "neutral",
          "max_distance": 30.0
-     }
-   }
+     },
+     "mob.irongolem.repair": {
+        "sounds": [
+             {
+                 "name": "sounds/mob/irongolem/RESUME",
+                 "volume": 0.9
+             ],
+             "category": "neutral",
+             "max_distance": 30.0
+        },
+    }
 }

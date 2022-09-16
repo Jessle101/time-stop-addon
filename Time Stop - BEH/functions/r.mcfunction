@@ -1,5 +1,6 @@
-tellraw @a[scores={time=!0}] {"rawtext":[{"text":"§fThe Time has §2Resumed!"}]}
-playsound beacon.deactivate @a[scores={time=!0,sound=!2}]
+tellraw @a[scores={time=!0}] {"rawtext":[{"text":"§fNormal Time has §2Resumed!"}]}
+playsound mob.irongolem.repair @a[scores={time=!0,sound=0}]
+playsound beacon.deactivate @a[scores={time=!0,sound=1}]
 effect @e[scores={time=!0}] clear
 execute @a[scores={time=!0}] ~ ~ ~ title @a actionbar §l§aTime set to Normal!
 execute @e[type=creeper] ~ ~ ~ execute @s ~ ~ ~ tag @s add OG

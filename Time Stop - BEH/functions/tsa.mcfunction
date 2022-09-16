@@ -32,6 +32,8 @@ execute @a[scores={time=5}] ~ ~ ~ function time-rewind
 scoreboard objectives add jessieTimer2 dummy "TSA Timer"
 scoreboard players add @a[c=1] jessieTimer2 1
 execute @a[scores={jessieTimer2=20},c=1] ~~~ execute @s ~~~ function items
+execute @a[scores={jessieTimer2=25},c=1] ~~~ effect @e[type=!npc] clear
+execute @a[scores={jessieTimer2=25,players=1},c=1] ~~~ execute @s ~~~ effect @s clear
 execute @a[scores={jessieTimer2=40},c=1] ~~~ execute @s[tag=!hasclock] ~~~ tag @s remove gui
 execute @a[scores={jessieTimer2=40},c=1] ~~~ execute @s[tag=!hascompass] ~~~ tag @s remove gui2
 execute @a[scores={jessieTimer2=80},c=1] ~~~ execute @a[tag=!hasclock] ~~~ execute @s[tag=!hascompass] ~~~ function ts-reset
