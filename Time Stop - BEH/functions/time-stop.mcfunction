@@ -23,3 +23,4 @@ event entity @e[type=!player] minecraft:stop_johnny
 event entity @e[type=!player] minecraft:stop_transforming
 
 event entity @e[type=player] stop_suffocating
+mobevent events_enabled false

@@ -16,9 +16,10 @@
              {
                  "name": "sounds/mob/irongolem/RESUME",
                  "volume": 0.9
+             }
              ],
              "category": "neutral",
              "max_distance": 30.0
-        },
+        }
     }
 }
