@@ -43,4 +43,4 @@ execute @a[scores={jessieTimer2=101..},c=1] ~~~ scoreboard players set @a jessie
 execute @a[hasitem={item=clock, location=slot.inventory, slot=0..26}] ~~~ tag @s add hasclock
 execute @a[hasitem={item=clock, location=slot.hotbar, slot=0..8}] ~~~ tag @s add hasclock
 
-execute @a ~~~ execute @s[tag=!hasclock] ~~~ function ts-reset
+execute @a ~~~ execute @s[tag=!hasclock,tag=nomoreitems] ~~~ function ts-reset
