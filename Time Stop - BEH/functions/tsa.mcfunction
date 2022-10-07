@@ -34,10 +34,14 @@ scoreboard players add @a[c=1] jessieTimer2 1
 execute @a[scores={jessieTimer2=20},c=1] ~~~ execute @s ~~~ function items
 execute @a[scores={jessieTimer2=25},c=1] ~~~ effect @e[type=!npc] clear
 execute @a[scores={jessieTimer2=25,players=1},c=1] ~~~ execute @s ~~~ effect @s clear
-execute @a[scores={jessieTimer2=50,time=4},c=1] ~~~ execute @r ~~~ time add -90
+execute @a[scores={jessieTimer2=20,time=4},c=1] ~~~ execute @r ~~~ time add -18
+execute @a[scores={jessieTimer2=40,time=4},c=1] ~~~ execute @r ~~~ time add -18
+execute @a[scores={jessieTimer2=60,time=4},c=1] ~~~ execute @r ~~~ time add -18
+execute @a[scores={jessieTimer2=80,time=4},c=1] ~~~ execute @r ~~~ time add -18
 execute @a[scores={jessieTimer2=80},c=1] ~~~ execute @s[tag=!nomoreitems] ~~~ tag @s add nomoreitems
 execute @a[scores={jessieTimer2=90},c=1] ~~~ tag @a remove hasclock
 execute @a[scores={jessieTimer2=90},c=1] ~~~ tag @a remove holdingclock
+execute @a[scores={jessieTimer2=100,time=4},c=1] ~~~ execute @r ~~~ time add -18
 execute @a[scores={jessieTimer2=101..},c=1] ~~~ scoreboard players set @a jessieTimer2 0
 
 execute @a[hasitem={item=clock, location=slot.inventory, slot=0..26}] ~~~ tag @s add hasclock
