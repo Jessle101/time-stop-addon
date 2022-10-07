@@ -1,5 +1,6 @@
 execute @e[type=!player] ~ ~ ~ effect @s slowness 99999 3 true
 execute @a[scores={players=1},tag=!admin] ~ ~ ~ effect @s slowness 99999 3 true
+execute @a[scores={players=1},tag=!admin] ~ ~ ~ effect @s mining_fatigue 99999 2 true
 gamerule randomtickspeed 0
 gamerule dodaylightcycle true
 gamerule doweathercycle true
