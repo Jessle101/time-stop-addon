@@ -1,8 +1,8 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "Example vanilla resource pack",
-		"name": "Vanilla Resource Pack",
+		"description": "§l§bTime Stop — Remastered §r[v1.0]",
+		"name": "Stop time in your worlds! §5§lZA WARUDO!! \n§rCreated by §cJessie101",
 		"uuid": "66c6e9a8-3093-462a-9c36-dbb052165822",
 		"version": [
 			0,
@@ -36,5 +36,15 @@
 				"0.9.29"
 			]
 		}
-	}
+	},
+	"dependencies": [
+		{
+			"uuid": "b20f2e58-789e-414f-b92b-045ba7dc53a9",
+			"version": [
+				2,
+				0,
+				0
+			]
+		}
+	]
 }
