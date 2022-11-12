@@ -1,11 +1,10 @@
-execute @a[hasitem={location=slot.weapon.mainhand,item=clock},tag=!gui] ~ ~ ~ summon npc
-execute @e[type=npc] ~ ~ ~ tag @a[r=0.2] add gui
-execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ dialogue change @e[tag=!changed] main
-tag @e[tag=!changed] add changed
-execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ tp @e[type=npc,c=1] @s
+execute @a[hasitem={location=slot.weapon.mainhand,item=clock},tag=!gui] ~ ~ ~ summon npc GUI
+tag @a[hasitem={item=clock,location=slot.weapon.mainhand}] add gui
+dialogue change @e[type=npc,name=GUI] main
+execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ tp @e[type=npc,c=1,name=GUI] @s
 tag @a[tag=gui,hasitem={item=clock,quantity=0,location=slot.weapon.mainhand}] remove gui
-execute @e[type=npc] ~ ~ ~ execute @a[r=0.5,hasitem={item=clock,quantity=0,location=slot.weapon.mainhand},tag=!gui] ~ ~ ~ kill @e[type=npc,r=1,c=1]
-playanimation @e[tag=changed,type=npc] animation.creeper.swelling true 99999 false
+execute @a[tag=!gui] ~ ~ ~ kill @e[type=npc,name=GUI,r=0.4,c=1]
+playanimation @e[name=GUI,type=npc] animation.creeper.swelling true 99999 false
 
 scoreboard objectives add time dummy "Time"
 scoreboard objectives add actionbar dummy "Actionbar"
