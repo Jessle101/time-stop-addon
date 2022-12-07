@@ -45,3 +45,14 @@ execute @a[scores={jessieTimer2=101..},c=1] ~~~ scoreboard players set @a jessie
 
 execute @a[hasitem={item=clock, location=slot.inventory, slot=0..26}] ~~~ tag @s add hasclock
 execute @a[hasitem={item=clock, location=slot.hotbar, slot=0..8}] ~~~ tag @s add hasclock
+
+
+scoreboard objectives add laggClearer dummy "Lagg Clearer"
+scoreboard players add @a[c=1] laggClearer 1
+execute @a[scores={laggClearer=200},c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"text":"§3§lLagg Clearer >> §r§aClearing all item entities in 15 minutes!"}]}
+execute @a[scores={laggClearer=18200},c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"text":"§3§lLagg Clearer >> §r§a5"}]}
+execute @a[scores={laggClearer=18220},c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"text":"§3§lLagg Clearer >> §r§a4"}]}
+execute @a[scores={laggClearer=18240},c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"text":"§3§lLagg Clearer >> §r§a3"}]}
+execute @a[scores={laggClearer=18260},c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"text":"§3§lLagg Clearer >> §r§a2"}]}
+execute @a[scores={laggClearer=18280},c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"text":"§3§lLagg Clearer >> §r§a1"}]}
+execute @a[scores={laggClearer=18300},c=1] ~~~ execute @a ~~~ function clearlagg
