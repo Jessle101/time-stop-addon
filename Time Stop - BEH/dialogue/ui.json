@@ -106,7 +106,7 @@
         "buttons": [
           {
             "commands": ["dialogue open @s @initiator teleport"],
-            "name": "§l§8<- back"
+            "name": "§8<- back"
           },
           {
             "commands": ["function tp-mobarena"],
@@ -118,7 +118,7 @@
           },
           {
             "commands": ["function tp-zombie"],
-            "name": "§l§5Zombification"
+            "name": "§l§5Zombie"
           },
           {
             "commands": ["function tp-village"],

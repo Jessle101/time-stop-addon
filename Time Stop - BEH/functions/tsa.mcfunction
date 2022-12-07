@@ -19,6 +19,8 @@ scoreboard players add @a players 0
 scoreboard players add @a toggle 0 
 gamerule sendcommandfeedback false
 
+gamemode a @a[rm=100,tag=!admin,x=20,y=65,z=-165]
+gamemode s @a[r=100,tag=!admin,x=20,y=65,z=-165]
 
 execute @a[scores={time=0}] ~ ~ ~ function resume
 execute @a[scores={time=1}] ~ ~ ~ function time-stop
