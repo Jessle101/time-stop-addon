@@ -1,95 +1,135 @@
 {
-	"format_version": "1.19.20",
-	"minecraft:npc_dialogue": {
-		"scenes": [
-			{
-				"scene_tag": "main",
-				"npc_name": "§r",
-				"text": "§◉§8§lControl Time GUI!\n\n§1Stop Time - stops all entities from moving, crops from growing, time of day remains the same, mob events disabled.\n\n§2Normal Time - the time becomes normal again!\n\n§0Pause Game - same as \"§1Stop Time§0\", but all players are frozen as well!\n\n§6Slow Time - reduces normal speed by 10x!\n\n§cSpeed Up - increases normal speed by 10x!\n\n§8Settings - change default settings of this addon. Use \"§3/tag @s admin§8\" in order to be able to access settings!",
-				"buttons": [
-					{
-						"commands": [
-							"function st"
-						],
-						"name": "§1§oStop Time!"
-					},
-					{
-						"commands": [
-							"function r"
-						],
-						"name": "§2§oNormal Time!"
-					},
-					{
-						"commands": [
-							"function p"
-						],
-						"name": "§0§oPause Game!"
-					},
-					{
-						"commands": [
-							"function slowt"
-						],
-						"name": "§6§oSlow Time!"
-					},
-					{
-						"commands": [
-							"function sut"
-						],
-						"name": "§c§oSpeed Up!"
-					},
-					{
-						"commands": [
-							"dialogue open @s @initiator[tag=admin] settings",
-							"tellraw @initiator[tag=!admin] {\"rawtext\":[{\"text\":\"§c§lError:§r§c Only Admins can access settings!\"}]}",
-							"playsound mob.creeper.say @initiator[tag=!admin]"
-						],
-						"name": "§l§8Settings —>"
-					}
-				]
-			},
-			{
-				"npc_name": "§r",
-				"scene_tag": "settings",
-				"text": "§◉§8§lControl Time SETTINGS!\n\n§0Toggle Text:\n- Enable Actionbar (default)\n- Disable Actionbar \n\nToggle Sound: \n- ZA WARUDO (default)\n- Beacon Sound\n- No Sounds\n\nToggle Players\nwhen time is stopped:\n- All Players Freeze\n- All Players, except Admins Freeze\n- Players do not freeze (default)",
-				"buttons": [
-					{
-						"commands": [
-							"function toggle-actionbar"
-						],
-						"name": "§lToggle Text"
-					},
-					{
-						"commands": [
-							"function toggle-sound"
-						],
-						"name": "§lToggle Sound"
-					},
-					{
-						"commands": [
-							"function toggle-players"
-						],
-						"name": "§lToggle Players"
-					},
-					{
-						"commands": [
-							"dialogue open @s @initiator main"
-						],
-						"name": "§l§1<— Clock"
-					},
-					{
-						"commands": [
-							"function giveitems"
-						],
-						"name": "Items"
-					},
-					{
-						"commands": [
-							"function givebook"
-						],
-						"name": "Info Book"
-					}
-				]
-			}
-		]
-	}
+  "format_version": "1.19.20",
+  "minecraft:npc_dialogue": {
+    "scenes": [
+      {
+        "scene_tag": "main",
+        "npc_name": "§r",
+        "text": "§◉§8§lControl Time GUI!\n\n§1Stop Time - stops all entities from moving, crops from growing, time of day remains the same, mob events disabled.\n\n§2Normal Time - the time becomes normal again!\n\n§0Pause Game - same as \"§1Stop Time§0\", but all players are frozen as well!\n\n§6Slow Time - reduces normal speed by 10x!\n\n§cSpeed Up - increases normal speed by 10x!\n\n§8Settings - change default settings of this addon. Use \"§3/tag @s admin§8\" in order to be able to access settings!",
+        "buttons": [
+          {
+            "commands": ["function st"],
+            "name": "§1§oStop Time!"
+          },
+          {
+            "commands": ["function r"],
+            "name": "§2§oNormal Time!"
+          },
+          {
+            "commands": ["function p"],
+            "name": "§0§oPause Game!"
+          },
+          {
+            "commands": ["function slowt"],
+            "name": "§6§oSlow Time!"
+          },
+          {
+            "commands": ["function sut"],
+            "name": "§c§oSpeed Up!"
+          },
+          {
+            "commands": [
+              "dialogue open @s @initiator[tag=admin] settings",
+              "tellraw @initiator[tag=!admin] {\"rawtext\":[{\"text\":\"§c§lError:§r§c Only Admins can access settings!\"}]}",
+              "playsound mob.creeper.say @initiator[tag=!admin]"
+            ],
+            "name": "§l§8Settings —>"
+          }
+        ]
+      },
+      {
+        "npc_name": "§r",
+        "scene_tag": "settings",
+        "text": "§◉§8§lControl Time SETTINGS!\n\n§0Toggle Text:\n- Enable Actionbar (default)\n- Disable Actionbar \n\nToggle Sound: \n- ZA WARUDO (default)\n- Beacon Sound\n- No Sounds\n\nToggle Players\nwhen time is stopped:\n- All Players Freeze\n- All Players, except Admins Freeze\n- Players do not freeze (default)",
+        "buttons": [
+          {
+            "commands": ["function toggle-actionbar"],
+            "name": "§lToggle Text"
+          },
+          {
+            "commands": ["function toggle-sound"],
+            "name": "§lToggle Sound"
+          },
+          {
+            "commands": ["function toggle-players"],
+            "name": "§lToggle Players"
+          },
+          {
+            "commands": ["dialogue open @s @initiator main"],
+            "name": "§l§1<— Clock"
+          },
+          {
+            "commands": ["function giveitems"],
+            "name": "Items"
+          },
+          {
+            "commands": ["function givebook"],
+            "name": "Info Book"
+          }
+        ]
+      },
+      {
+        "scene_tag": "teleport",
+        "npc_name": "Jim",
+        "text": "§3Use me to teleport anywhere in the map! :D",
+        "buttons": [
+          {
+            "commands": ["function tp-lounge"],
+            "name": "§l§dLounge"
+          },
+          {
+            "commands": ["function tp-floortwo"],
+            "name": "§l§g2nd Floor"
+          },
+          {
+            "commands": ["function tp-lavapit"],
+            "name": "§l§cLava Pit"
+          },
+          {
+            "commands": ["function tp-explosions"],
+            "name": "§l§3Explosions!"
+          },
+          {
+            "commands": ["function tp-archery"],
+            "name": "§l§6Archery"
+          },
+          {
+            "commands": ["dialogue open @s @initiator teleport-pg2"],
+            "name": "§l§8More —>"
+          }
+        ]
+      },
+      {
+        "scene_tag": "teleport-pg2",
+        "npc_name": "Jim",
+        "text": "§3Use me to teleport anywhere in the map! :D",
+        "buttons": [
+          {
+            "commands": ["dialogue open @s @initiator teleport"],
+            "name": "§l§8<- back"
+          },
+          {
+            "commands": ["function tp-mobarena"],
+            "name": "§l§4Mob Arena"
+          },
+          {
+            "commands": ["function tp-blockdrop"],
+            "name": "§l§aBlock Drop!"
+          },
+          {
+            "commands": ["function tp-zombie"],
+            "name": "§l§5Zombification"
+          },
+          {
+            "commands": ["function tp-village"],
+            "name": "§l§1Village!"
+          },
+          {
+            "commands": ["function tp-clocktower"],
+            "name": "§l§2Clock Tower"
+          }
+        ]
+      }
+    ]
+  }
 }
