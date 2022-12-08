@@ -1,6 +1,5 @@
-execute @a[hasitem={location=slot.weapon.mainhand,item=clock},tag=!gui] ~ ~ ~ summon npc GUI
+execute @a[hasitem={location=slot.weapon.mainhand,item=clock},tag=!gui] ~ ~ ~ structure load mystructure:gui1 ~ ~ ~
 tag @a[hasitem={item=clock,location=slot.weapon.mainhand}] add gui
-dialogue change @e[type=npc,name=GUI] main
 execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ tp @e[type=npc,c=1,name=GUI] @s
 tag @a[tag=gui,hasitem={item=clock,quantity=0,location=slot.weapon.mainhand}] remove gui
 execute @a[tag=!gui] ~ ~ ~ kill @e[type=npc,name=GUI,r=0.4,c=1]
