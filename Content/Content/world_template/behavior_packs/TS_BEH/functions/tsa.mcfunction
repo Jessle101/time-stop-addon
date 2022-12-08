@@ -23,11 +23,11 @@ gamemode s @a[rm=100,tag=!admin,x=20,y=65,z=-165]
 gamemode a @a[r=100,tag=!admin,x=20,y=65,z=-165]
 
 execute @a[scores={time=0}] ~ ~ ~ function resume
-execute @a[scores={time=1}] ~ ~ ~ function time-stop
+execute @a[scores={time=1}] ~ ~ ~ function time_stop
 execute @a[scores={time=2}] ~ ~ ~ function pause
-execute @a[scores={time=3}] ~ ~ ~ function speed-up
-execute @a[scores={time=4}] ~ ~ ~ function slow-time
-execute @a[scores={time=5}] ~ ~ ~ function time-rewind
+execute @a[scores={time=3}] ~ ~ ~ function speed_up
+execute @a[scores={time=4}] ~ ~ ~ function slow_time
+execute @a[scores={time=5}] ~ ~ ~ function time_rewind
 
 
 scoreboard objectives add jessieTimer2 dummy "TSA Timer"

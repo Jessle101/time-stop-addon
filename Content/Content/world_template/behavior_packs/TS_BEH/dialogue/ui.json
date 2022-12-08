@@ -43,15 +43,15 @@
         "text": "§◉§8§lControl Time SETTINGS!\n\n§0Toggle Text:\n- Enable Actionbar (default)\n- Disable Actionbar \n\nToggle Sound: \n- ZA WARUDO (default)\n- Beacon Sound\n- No Sounds\n\nToggle Players\nwhen time is stopped:\n- All Players Freeze\n- All Players, except Admins Freeze\n- Players do not freeze (default)",
         "buttons": [
           {
-            "commands": ["function toggle-actionbar"],
+            "commands": ["function toggle_actionbar"],
             "name": "§lToggle Text"
           },
           {
-            "commands": ["function toggle-sound"],
+            "commands": ["function toggle_sound"],
             "name": "§lToggle Sound"
           },
           {
-            "commands": ["function toggle-players"],
+            "commands": ["function toggle_players"],
             "name": "§lToggle Players"
           },
           {
@@ -74,33 +74,33 @@
         "text": "§3Use me to teleport anywhere in the map! :D",
         "buttons": [
           {
-            "commands": ["function tp-lounge"],
+            "commands": ["function tp_lounge"],
             "name": "§l§dLounge"
           },
           {
-            "commands": ["function tp-floortwo"],
+            "commands": ["function tp_floortwo"],
             "name": "§l§g2nd Floor"
           },
           {
-            "commands": ["function tp-lavapit"],
+            "commands": ["function tp_lavapit"],
             "name": "§l§cLava Pit"
           },
           {
-            "commands": ["function tp-explosions"],
+            "commands": ["function tp_explosions"],
             "name": "§l§3Explosions!"
           },
           {
-            "commands": ["function tp-archery"],
+            "commands": ["function tp_archery"],
             "name": "§l§6Archery"
           },
           {
-            "commands": ["dialogue open @s @initiator teleport-pg2"],
+            "commands": ["dialogue open @s @initiator teleport_pg2"],
             "name": "§l§8More —>"
           }
         ]
       },
       {
-        "scene_tag": "teleport-pg2",
+        "scene_tag": "teleport_pg2",
         "npc_name": "Jim",
         "text": "§3Use me to teleport anywhere in the map! :D",
         "buttons": [
@@ -109,23 +109,23 @@
             "name": "§8<- back"
           },
           {
-            "commands": ["function tp-mobarena"],
+            "commands": ["function tp_mobarena"],
             "name": "§l§4Mob Arena"
           },
           {
-            "commands": ["function tp-blockdrop"],
+            "commands": ["function tp_blockdrop"],
             "name": "§l§aBlock Drop!"
           },
           {
-            "commands": ["function tp-zombie"],
+            "commands": ["function tp_zombie"],
             "name": "§l§5Zombie"
           },
           {
-            "commands": ["function tp-village"],
+            "commands": ["function tp_village"],
             "name": "§l§1Village!"
           },
           {
-            "commands": ["function tp-clocktower"],
+            "commands": ["function tp_clocktower"],
             "name": "§l§2Clock Tower"
           }
         ]
