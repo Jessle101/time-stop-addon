@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "description": "pack.description",
-        "name": "pack.name",
+        pack.name=Time Stop
+pack.description=Created By Pixels Perfect & Vatonage
         "uuid": "d4286bfd-460d-4944-b174-0f1d5437fe44",
         "lock_template_options": true,
         "base_game_version": [1, 18, 0],

@@ -1,5 +1,0 @@
-pack.name=ProjectHologramRP
-pack.description=This is an addon for adding holograms to your world. Created by AnimeSam
-
-item.spawn_egg.entity.entity:hologram.name=nameMe
-entity.entity:hologram.name=nameMe

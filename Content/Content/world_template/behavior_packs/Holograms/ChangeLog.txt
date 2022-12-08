@@ -1,0 +1,11 @@
+#ProjectHologram ChangeLog
+
+#Update 1
+	*Added Function for Stableizing Holograms
+	*Added Function To Remove Holograms
+	*Added Enable Feedback Function
+	*Added Disable Feedback Function
+	*Added ChangeLog
+	*Added ReadMe
+	
+#End
