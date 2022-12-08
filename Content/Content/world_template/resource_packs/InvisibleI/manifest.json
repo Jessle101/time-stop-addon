@@ -1,0 +1,17 @@
+{
+   "format_version" : 2,
+   "header" : {
+      "description" : "Makes the item frame and glowing item frame invisible .It offers a better view.\n§l§cYou§fTube: §l§bErbeyyy",
+      "name" : "Invisible Item Frame",
+      "uuid" : "0892281f-9e93-47be-92c1-0215acbcc8e0",
+      "version" : [ 1, 0, 0 ],
+      "min_engine_version": [ 1, 14, 0 ]
+   },
+   "modules" : [
+      {
+        "type" : "resources",
+        "uuid" : "c50b031d-d526-49dd-9d56-cb2dbd68f1a6",
+        "version" : [ 1, 0, 0 ]
+      }
+   ]
+}

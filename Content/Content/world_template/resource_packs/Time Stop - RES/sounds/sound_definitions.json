@@ -1,0 +1,25 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "random.toast": {
+            "sounds": [
+                {
+                    "name": "sounds/random/ZAWARUDO",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
+        },
+        "mob.irongolem.repair": {
+            "sounds": [
+                {
+                    "name": "sounds/random/RESUME",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
+        }
+    }
+}

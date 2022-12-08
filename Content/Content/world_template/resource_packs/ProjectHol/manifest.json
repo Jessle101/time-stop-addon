@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "ProjectHologram",
+		"description": "This Is The ResourcePack for ProjectHologram. By AnimeSam",
+		"uuid": "ef05e13f-1aa4-477d-a89c-06ad914db8d7",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "6b0d5920-cbe9-4541-b26c-619e75ae9f6d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

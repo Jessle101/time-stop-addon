@@ -1,0 +1,20 @@
+{
+	"client_entity": {
+		"RP/entity/hologram.json": {
+			"identifiers": [
+				"entity:hologram"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [],
+			"geometry_identifiers": []
+		}
+	}
+}

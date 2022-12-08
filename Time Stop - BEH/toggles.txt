@@ -1,3 +1,0 @@
-toggle sound 
-toggle actionbar
-toggle players (all players freeze, all players but admins freeze, players do not freeze)
