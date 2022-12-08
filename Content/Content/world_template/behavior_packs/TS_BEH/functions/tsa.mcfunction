@@ -1,4 +1,4 @@
-execute @a[hasitem={location=slot.weapon.mainhand,item=clock},tag=!gui] ~ ~ ~ structure load mystructure:gui1 ~ ~ ~
+execute @a[hasitem={location=slot.weapon.mainhand,item=clock},tag=!gui] ~ ~ ~ structure load mystructure:gui1 ~ ~ ~ 0_degrees none true false
 tag @a[hasitem={item=clock,location=slot.weapon.mainhand}] add gui
 execute @a[tag=gui,hasitem={item=clock,location=slot.weapon.mainhand}] ~ ~ ~ tp @e[type=npc,c=1,name=GUI] @s
 tag @a[tag=gui,hasitem={item=clock,quantity=0,location=slot.weapon.mainhand}] remove gui
