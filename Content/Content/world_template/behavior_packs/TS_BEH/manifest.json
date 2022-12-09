@@ -14,12 +14,7 @@
       "version": [2, 0, 0]
     }
   ],
-  "metadata": {
-    "generated_with": {
-      "bridge": ["2.3.3"],
-      "dash": ["0.9.29"]
-    }
-  },
+  "metadata": {},
   "dependencies": [
     {
       "uuid": "66c6e9a8-3093-462a-9c36-dbb052165822",
